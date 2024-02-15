@@ -12,7 +12,7 @@ import model.Card;
 
 public class CardHelper {
     // Create a global instance of EntityManagerFactory
-    static EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("Module3Assessment");
+    static EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("Module3AssessmentJennings");
     
     // Method to insert a Card
     public void insertCard(Card card) {
